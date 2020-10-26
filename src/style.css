@@ -1,0 +1,45 @@
+hr{
+    margin-top: 0
+}
+
+
+.topSpan, .jbrowseHeader, button, hr{
+    background-color: #0D233F;
+    color: white;
+}
+.topSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jbrowseHeader{
+    font: 400 system-ui;
+    margin-right: 10px;
+}
+.icon{
+    height: 48px;
+    width: 48px;
+}
+
+
+
+.readme{
+    width: 40%;
+    font-size: small;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.screenshot {
+  display: block;
+  width: 80%;
+}
+.demo {
+  font-size: 200%;
+}
+
+.post {
+  margin: 100px;
+  border: 1px solid black;
+  padding: 40px;
+}

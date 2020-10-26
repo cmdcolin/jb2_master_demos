@@ -54,9 +54,15 @@ function App() {
           </p>
           <a
             className="demo"
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/alpha/synteny_demo_bog20/index.html?config=test_data%2Fconfig_synteny_grape_peach.json&session=eJzNVdtO20AQ_RW0z5YdJ5ZJ_EaKClS0RSSilRCKlvXEXrB33Z1NTIjy7x1fcmkIVYT60EfPzJ45e87seMkUz4FF7MLwAk7meHIDXKQn55Br5rBSxjZlkd8P-g6LDS_B_GhCvX7gsLmEEll0v2QyJgwLaH06ZRdFBXktFXAzWigLanFHpZRKgcdgLkEmqWVREO61SNeJTof6SSwyvvh2iCBBCa2mMpkZbqVWLFr-rW1NT3wpx3J2-5RQgCuRaoMt6UnMLfeSqoNbVPDuOu8wlHmRwdlx9W5TTccKPqXi1NoCI8_Dnstz_qoVL9EVOveeHo0uEVxtEi8BpXNADxvKXo04adEJxmG5jGNCjayZwYr0NVw8jyADYbUZN7dOJRhuRCoFzyrWqS6vFBVWFpEiz9icdlhGH3eNb1OeIUUktSVEO9ZJkkG8iddtGnsPSTuu0m99YDXxSXOJ9kqTXKDgatKoxLY--53OyvlX8Hu4D4fnc_JmQi9q_dtJ0dMpgr15YVG33wsHbi8I_P7gNOx1Th32WNyAqXKEvx3QW0iIGn42Oj9DhPwxW89s0Y6qgTkYPCxtzWz-ImZX16fp4OeW3JCjFGsVdi72VpJ2YEABsuralLdGZ9g-Vb_b2X9mMoZPbdGGUxW8rJ_nelTqskwjDGfWVp2a8BHjl0sl81k-zLR4bll0a6d3fOge64Pvhr4fdINeN-wPwjD8gBH10BxjhP7VU4uRSMX3jxjRzOb_b8RDRW6zzhOwWO3P3aPjXegqWavzfsVGrMv3Ss532tXPOst4UVuxpJU2lRktoTG8kLSMNS9380ehPAIiafyVK57AltBeeMNi9Gd8RQi04OQczvcuTYkc1GzIq91-31imiC8dvlJoaWFBXbb6DQC3esw"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-4e68d7667f204ee4dfaf01279ee488275686147d4c93c86a80fb2994ad6c43c6&password=c17703bc1fc0d1c7508bc1af8cf42892"
           >
             Demo (deletion)
+          </a>
+          <a
+            className="demo"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-09fbcfe05be0f234ff38c2a7da37b5d57485056233e6abd3eb72c61956ad69cf&password=0510843a5e1ac5ef6504e321b6fc7855"
+          >
+            Demo (inversion)
           </a>
         </div>
 
@@ -75,20 +81,20 @@ function App() {
           </p>
           <a
             className="demo"
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/alpha/master/index.html?config=test_data%2Fconfig_dotplot.json"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-1ac98298d9a92564495c42670e75317b1f68ce8a158a022a0ee11b4dde5eecd6&password=7551ad20dd2a6e99794cebff0d2d2daf"
           >
             Demo
           </a>
         </div>
         <div className="post">
           <a href="#3" name="3">
-            <h1>3 - SV inspector with spreadsheet and circos overview</h1>
+            <h1>Fig 3 - SV inspector with spreadsheet and circos overview</h1>
           </a>
           <ModalImage small="resized.4.png" large="4.png" />
           <p></p>
           <a
             className="demo"
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/alpha/master/index.html?session=eJztnPtT27gWx_-Vjn9tkur9CJc7Q3lsuUspm7C0ezudjEkMeOrYqW3oa_jf75GfAeQASm93O8OydG3ZPpKl7_noHMnb717szwNv6B0Gn5-NgywLk_gZQQT1EesTdYzFkOshkgMs8H-9njf30_Mw9oao581S_3OQvg1n-YU3pIr1vKsw-Jx5w_ffvXAGJn-f6EzMRy-34Ln868LUMr7aj7NFMM2T9ARu9gor56_8eBYFr4Lw_CL3hmDoojrkCOpJ4ujrTpgtIv_rKIiCKz_OR8E5tDPbj7fDdHoZ-aWx4ZkfZQG0MZmZusL5IklzqCJbpIE_yy6CIC_vq9oXiZeLnW__-ZbwpQbeuheqPzvLgvzoS_HOdcMYU3ASzgJz03YS52kSwZvn6WVQlQdpHk79aBRk4begfMHl63thlAdp-2TV9LNbxd-9NPm8dxlFx8GX3JxWzRwtlcIL5mkYnx8ne2Fs3su77nnTJLqcx2UtZkg-XDf9Miv7Ep4re-ht-M1PZ8Y41B6Mk8t0Gpiz0yg5hf9eXxfNCo7Lmk-29-DJKPFnUGXT7gs_2y5qPAQ1HYRx867TG6WHl_PTIPWGGNoMQznNg9lWlgXz0-jr_sz08PWN0aref1wehdkB1BrMatNwZUlsGFo1DaKoLMqL7oLC615zQqmmSovlIkL5hCwXHC6f_Ot4tPXv5YLl46Ot8Xj5fP_10Wh3e3-8uzE-eb17_OrNzuY4Ds_OoiC7wgM0oBvbr0ZkE_ON3cOdTaklxYLrjfHxzuTTJUh6kuV-mm9iNdBEYEluXEkWm0yrgRJaE7rx-2WaJ1mY3XiwjweYC0bQ3cvwdB8NiOJcImjd8V9Hu5vwahvjP4-K4_EISg92D8GGxpgSrTCD6kdbhzvjzefP60OySXsEfujGaHeTb2ztbaKBxIyoG1362_FwZzTcOVkuQy_wkAy5d_2h50FJEMMo7vi5b0b1anq2F_j5ZVpo7jIOP10G-2ZA4UIfwaCmwdlhiShcSB1eFnBTjCUHc0bx1cgCTIJsmoaLHOAA90Ozn_WfHad-nEXJ1C9KG0fPbxVXGCwV0fNgsN68ruo8ejNeqmN_BxRW3QfvM9rdK3TT87YOjs2VUjVw5Y8_tw68YQxu2vP29g-Od0e1bMDI4d4b876NampR1-Ixlm7qx5g0EjJXMDdnICQ4qaUEBbfEVNxZ68m7dT1ZmMutqsx1m7DMXY22rDeVlhqFFRUVIjPF0BlFQSm14q1G5R0gODhdklzRwEJp5rbnz722oHhpCv1Gql9adj0UczjYgiF4X4vRkC7z5wvouIIfgR-9OPKnk-zjaUpfzP3FIpi9KBAzidKydHDmT-LzeZSalxjQSXnT4NSfGwu_FcMKGjZ17sAgvifm4KSo_Pra8DHMxhXOKiIa8RdYIvdiSWOCGePLRVyLH4Wlh0GJFVDSVGKKpboDJTRQVAiBbjMJDTiTsotIesCRQtIOJOhomNzRPTwiCCNGBAQXVh5h2kPwgwsiwZ8FkoRiBOOHIEkMMX08k3AXk8qBZBWTqmH9EUwq5WBhUlNHyaTyvrWZ5EYk1hKp1pGdSLWY7ECqJbUKR7WwVtColtcjYdTq7T4YYUMjVP3iFkeYtjwqlfgTeCRqHkHt9wGJPhBIarkIE6Y0_bmBUsskqFzcDZTkgFEOkr8NJTxQjGqk7VCiAykIw8oKJTIQQpKHQUkiqRso9fstlIBHxPyLCiiRKk5CXCnyECjxISaPhxJZDSV5A0rqR0CpkkQnlVRNperGvy1UugUmI6aOUKlWlJ1Mta5WkalW1woy1RpzIpMR3U0y9fu3yVQAidR_oJZMZClSKuT4E8jEGzKRe8nE7iUTlghpqeRNNBHG5U9F07uCTDAijCF9N4UjRA44BR_At9FEqITJj2jC7XCCgeEY686IiWCl5D0ZHMNISim0aiOmJTixXvFj0KRKMnFq_nkImeRQPR5MtAtM1ViKikz10P4YNBWSsKCpraVmU3Hn38Wmdy2aajXZ0dRKys6mVlir6FTLa3XcVIjssUlco7pbcdMdOhknb39rNqkWTaUefwKaZI0mdS-Z-EPIBGmsZstliunJz42ZWjBBHi7vggmxgYZkH9-JmWA-GjDFwRm6wIQRgoC6A0wwLYIjPRBMso2ani9HTQIyOWHAJEowKQ75_L1gwgAmyOQeDya2AkxmKGkLpmJkfwSYSkXYuVRVUnKpvPEfgiWjpQ4sNYLqwFIjq9VYKsW1EkulxFyxJG8FTXfSORM0iSqbEw2WRIulUo3_JyzhJSzhGkuiE0sfmvX9EkiVukpVgU5B_uVifbNdUOwTFLZ2gjS8ukG46mmjQ-uz1Zr96qdBtq4VG4m7PmucwvXZwoHc37jyOdfaCxd1fXjvzej1lvubrynbx1X7odZqtYX3Jp2ZHaD3kCabvQSIRjmgX_ZUz8Q-N_aRmg21LEnz7UbwcJtfbRpV9L44x9ozvjK9sR1Yzd5v49__-DhJ8celbb4b-4b1Ht_In4W-qaKPBwZ6WlAipIb0VUCYero4ClKzDcgRFDEG1BKcY4J0z_B--nFpMyroH7C9L_GX6dLGIrzKFOYiPzrxU6gm375I0tmxedBEF0l8Fp7D1XJ2-f6wp4pqixktu-qH9cZqH06m5rZ-cb2_vA1bKeCsnBazZ2dpMn-W-6emL56ZYYV7_Jm_yM0YNa3Yg7u2ixZuVdd6jYnipZ-2bZ62bX61bZve08r-08r-L7ayf1ezTwu_Twu_v8DC713hPi0MPi0M_goLg3eV-7Ry9LRy9M9fOTIVpmY5NL2RytkTylF9o0miT4NvYZCaZPgyGxkdekPo6I6k-8PDPnctMtZyHStJX17mufGE8jKI_WMw2wvz4-RtGM-Sz_WFWZj5p1GwX3ykupek88Zg9REuNXndPIzD-eW8bK5Jzwk335D60zA-N6cY9byFP5tVpwrVNR61hdh8ZgyGTsIshBqrT5pb4y_NE1UpQb36C9pgVn2HXOTAViSgigWEAYKRINgMylWQZs0CSUe_9pYNEptBijWENdTJIL1rEGtl_IQiJ4PMZhBjDpGLcDLILQYV0pgT4dZCYTEoMTQRCelkUFoMco2pEsJtUJTFIBNUMBgXJ4PaZhBidAracTKIkcUiRM6USebWidjiK2ARIcGxm3CwxVkwpYrjYuHJxaLNWzC0Tyup3Cza3AVJyjRnburGNn9BhFOIDdzEgy0OoxGFHJ67yRtbHEZB1MkJdnxni8NIBdM2YY7DYnEY8GiitHJ7ZWLxF0FhWDhxe2VicRemMNGu2iYWb-GYIsaFm_u9s1GRQ_7KHbn9l21MYN5zbaCYZBAbTi78hUWPMEsr7jgfiMl8embsWlyRKUhdtJsqxWSafDF2LUPFpOZUusEc2uvHsTFsoRETkDU6zmNi4i9mxq5NrIIQoh1n8Mmn08jYtZCJCSCJ-V_QnOzOTk-NXQvnwS4qwkwn4E2m-Tnv6AksFFLETRLMGNYdhrk2C51uLZ6cRwghrMkE0tBZMrdYh6nesT_-jEvzhFg8hEAo5hjMsrrVrLPVEIsyodezTrutKy2Vm3VddQlCK6xLmHbX7HFbUKSEEm7oaOxagy2wy910Leu-5it6g6i19WcL6BTMeev2si2sk1poN123vWwL5KXGjhMKlrXoVnSzZFy5mW-bbYtJJeFszW62RaZgl2g3_Ld2bRmdJJit5dqQpXf3skkh1m21dW4RruFRa9fmJIIR6tYbrZPYckgB7ueWprTttaXPEBW4JqYNmVcMHyQHjrNK2x224YOMWrs1u-0OG4uolHhNpya2biaQJLnFdK1dm_MRRR3do4lkcPfoIcGoYyrbiEN1mtdErBcTAN67jSOkHBczGvh3R0sKU8eUvBlOaouluWZrxhvUlrNx5ZixtWYtTGJU6DVby2wZG-VkzXCA2fqW0nX7ltnSNZjE1-QytWVrEE2vOe0x25CBWde1qdorRKdXMAw-uWZf2ASBxNpdbEvgEXdd5MV1X3RngQxBWrxmoy0TCdV63fCCWfoCzJJ1zVpbW3yl4LLSXxO-W21UQcq6ZpstaQNVfN1Ai1kcmirMHSfqxvO682sIAhxTnaaj5QrjWK6ZkDBLokMhBF8XyJbJjkIE7rgZVPdzd0REBXZcOW-92tYVjK2b5FCblKkibmZJTTjcvepCpFDrYtm2DyypIzPaSNm2GqA1duPxa1vWxB2XlNs22lJ0DkGr40ZPrd1uN2ZEPHi4PsDT0zSJonfF8-XxX8VxvvydQvU3Xl2EQeqn0wvzfYN3bZ5u_uaz8yA3n3NcQ0XTPLwKdu5emCZxDNbCJN6Poc3xtPgA5Pr6f8IsY-g"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-2669c214ec21890a19b4eeacaafb8e416f471213a60ee3f21f65ea4f36297029&password=431a9e01c3816db57b2eb12e3b5e13b5"
           >
             Demo
           </a>

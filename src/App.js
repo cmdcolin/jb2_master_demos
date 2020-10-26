@@ -122,18 +122,60 @@ function App() {
           </p>
           <a
             className="demo"
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/alpha/longread_demo/index.html?config=test_data/config_longread.json"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-a787a0d9f50469313a9ec1513bf2f2e613a7af90f0306053d1ae36ced4b76b21&password=fe74332a03ebc51780d8c3fb0b8f6ac6"
           >
-            Demo
+            Demo (dotplot read vs ref)
+          </a>
+          <a
+            className="demo"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-2f1a0b366be17d6848bd398e6367ecdc2b62ca3bb71bfdc4b5bd499d7fe2dbb3&password=f515e44eca237e4547955cf8a52ba714"
+          >
+            Demo (linear read vs ref)
           </a>
         </div>
       </div>
 
       <div className="post">
         <a href="#6" name="6">
-          <h1>
-            Fig 6 - Whole-genome linear CNV overview (bonus, not in poster)
-          </h1>
+          <h1>Fig 6 - Examples of plugins on the JBrowse 2 platform</h1>
+        </a>
+        <div style={{ display: 'flex' }}>
+          <div style={{ padding: 20 }}>
+            <ModalImage small="resized.plugin1.png" large="plugin1.png" />
+          </div>
+          <div style={{ padding: 20 }}>
+            <ModalImage small="resized.plugin2.png" large="plugin2.png" />
+          </div>
+        </div>
+        <p>
+          The JBrowse 2 platform has been designed with extensibility in mind.
+          In this way, we allow plugins to develop new track types, new data
+          adapters, and even new &quot;view types&quot; e.g. alternatives to the
+          linear genome view. Our circular view and dotplot views are examples
+          of this, as are our spreadsheet and breakpoint split view.
+        </p>
+        <p>
+          The example on the left above show a data adapter for the GDC cancer
+          genome GraphQL API, fetching variants from their database which are
+          colored by variant impact. The example on the right shows data fetched
+          from the UCSC REST API for the GeneHancer track, drawn using a custom
+          arc renderer. This latter example was documented and presented at the
+          BCC2020 training session, and those proceedings are available here (
+          <a href="https://jbrowse.org/jb2/docs/bcc2020_plugin_development/">
+            link
+          </a>
+          )
+        </p>
+        <a
+          className="demo"
+          href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-dd3949994b4456d154a591909dbd22cf4e7e47198e900b94d67e5d9b9208a90f&password=02b00b8b91b4d4fa3c2562f91835eefd"
+        >
+          Demo
+        </a>
+      </div>
+      <div className="post">
+        <a href="#7" name="7">
+          <h1>Bonus fig - Whole-genome linear CNV overview (not on poster)</h1>
         </a>
         <ModalImage small="resized.cnv.png" large="cnv.png" />
         <p>
@@ -171,6 +213,18 @@ function Readme() {
         <a href="https://github.com/GMOD/jbrowse-components">Github</a>
         <br />
         <a href="https://gitter.im/GMOD/jbrowse2">Gitter chat</a>
+        <br />
+        <a href="https://jbrowse.org">Main website @ jbrowse.org</a>
+        <br />
+        <br />
+        <p>
+          <i>
+            Note: We now have a JBrowse 2{' '}
+            <a href="https://jbrowse.org/jb2/docs/">documentation portal</a>,
+            and JBrowse 2 releases are being posted to our{' '}
+            <a href="https://jbrowse.org/jb2/blog">blog</a>
+          </i>
+        </p>
       </div>
     </div>
   )

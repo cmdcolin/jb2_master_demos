@@ -36,10 +36,14 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   anchorLink: {
+    color: '#444',
     fontSize: '200%',
     [theme.breakpoints.down('md')]: {
       fontSize: '100%',
     },
+  },
+  toolbar: {
+    background: '#0d233f',
   },
 }))
 
@@ -47,7 +51,7 @@ function Header() {
   const classes = useStyles()
   return (
     <AppBar position="static">
-      <Toolbar>
+      <Toolbar className={classes.toolbar}>
         <Typography className={classes.title} variant="h6">
           <img alt="logo" src={icon} className={classes.icon} />
           JBrowse 2 ASHG 2020

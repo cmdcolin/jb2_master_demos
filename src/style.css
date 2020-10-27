@@ -1,33 +1,32 @@
-hr{
-    margin-top: 0
+hr {
+  margin-top: 0;
 }
 
-
-.topSpan, .jbrowseHeader, button, hr{
-    background-color: #0D233F;
-    color: white;
+.topSpan,
+.jbrowseHeader,
+button,
+hr {
+  background-color: #0d233f;
+  color: white;
 }
-.topSpan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.topSpan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.jbrowseHeader{
-    font: 400 system-ui;
-    margin-right: 10px;
+.jbrowseHeader {
+  font: 400 system-ui;
+  margin-right: 10px;
 }
-.icon{
-    height: 48px;
-    width: 48px;
+.icon {
+  height: 48px;
+  width: 48px;
 }
 
-
-
-.readme{
-    width: 40%;
-    font-size: small;
-    margin: 1em auto;
-    text-align: center;
+.readme {
+  width: 40%;
+  margin: 1em auto;
+  text-align: center;
 }
 
 .screenshot {
@@ -36,6 +35,7 @@ hr{
 }
 .demo {
   font-size: 200%;
+  display: block;
 }
 
 .post {

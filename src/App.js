@@ -166,12 +166,6 @@ function App() {
           </a>
           )
         </p>
-        <a
-          className="demo"
-          href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-dd3949994b4456d154a591909dbd22cf4e7e47198e900b94d67e5d9b9208a90f&password=02b00b8b91b4d4fa3c2562f91835eefd"
-        >
-          Demo
-        </a>
       </div>
       <div className="post">
         <a href="#7" name="7">
@@ -223,6 +217,11 @@ function Readme() {
             <a href="https://jbrowse.org/jb2/docs/">documentation portal</a>,
             and JBrowse 2 releases are being posted to our{' '}
             <a href="https://jbrowse.org/jb2/blog">blog</a>
+          </i>
+        </p>
+        <p>
+          <i>
+            Also note: you can click on any figure here for a zoomed in version
           </i>
         </p>
       </div>

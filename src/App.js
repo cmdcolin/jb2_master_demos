@@ -117,7 +117,7 @@ function App() {
             simply by right clicking a read in the alignments track and
             selecting the context menu option. These two screenshots show the
             exact same PacBio SKBR3 read in the two visualization modes,
-            "synteny" and "dotplot", which is show the read and it's split
+            "synteny" and "dotplot", which shows the read and it's split
             alignments, which traverse chr12, chrX, and chr1.
           </p>
           <a
@@ -200,7 +200,9 @@ function Readme() {
           These demos present a preview of JBrowse 2, as a companion to our ASHG
           2020 poster. We highlight circular, dotplot, and linear comparative
           views that are new to JBrowse 2. These new views aim to help
-          structural variant inspection and synteny visualization.
+          structural variant inspection, with a particular focus in these
+          examples on cancer applications with the SKBR3 cell line and PacBio
+          long read data.
         </i>
       </p>
       <div>

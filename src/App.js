@@ -8,6 +8,20 @@ import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => ({
+  icon: {
+    width: 48,
+    height: 48,
+    margin: 5,
+  },
+  title: {
+    textAlign: 'center',
+    flexGrow: 1,
+  },
+  post: {
+    margin: 10,
+    padding: 10,
+    border: '1px solid black',
+  },
   screenshots: {
     display: 'flex',
     [theme.breakpoints.down('md')]: {
@@ -16,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
   },
   demoLink: {
     fontSize: '200%',
+    display: 'block',
     [theme.breakpoints.down('md')]: {
       fontSize: '100%',
     },
@@ -29,11 +44,14 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 function Header() {
+  const classes = useStyles()
   return (
     <AppBar position="static">
       <Toolbar>
-        <img alt="logo" src={icon} className="icon" align="right" />
-        <Typography variant="h6">JBrowse 2 ASHG 2020</Typography>
+        <Typography className={classes.title} variant="h6">
+          <img alt="logo" src={icon} className={classes.icon} />
+          JBrowse 2 ASHG 2020
+        </Typography>
       </Toolbar>
     </AppBar>
   )
@@ -46,7 +64,7 @@ function App() {
       <Readme />
 
       <div id="parentDiv">
-        <div className="post">
+        <div className={classes.post}>
           <a className={classes.anchorLink} href="#1" name="1">
             Fig 1 - Linked supplementary alignments for deletion and inversion
             SV
@@ -96,7 +114,7 @@ function App() {
           </a>
         </div>
 
-        <div className="post">
+        <div className={classes.post}>
           <a className={classes.anchorLink} href="#2" name="2">
             Fig 2 - Breakpoint split view showing a translocation
           </a>
@@ -116,7 +134,7 @@ function App() {
             Demo
           </a>
         </div>
-        <div className="post">
+        <div className={classes.post}>
           <a className={classes.anchorLink} href="#3" name="3">
             Fig 3 - SV inspector with spreadsheet and circos overview
           </a>
@@ -130,7 +148,7 @@ function App() {
           </a>
         </div>
 
-        <div className="post">
+        <div className={classes.post}>
           <a className={classes.anchorLink} href="#5" name="5">
             Fig 5 - Dotplot/synteny of long read vs reference
           </a>
@@ -164,7 +182,7 @@ function App() {
           </a>
         </div>
 
-        <div className="post">
+        <div className={classes.post}>
           <a className={classes.anchorLink} href="#6" name="6">
             Fig 6 - Examples of plugins on the JBrowse 2 platform
           </a>
@@ -200,7 +218,7 @@ function App() {
             )
           </p>
         </div>
-        <div className="post">
+        <div className={classes.post}>
           <a className={classes.anchorLink} href="#7" name="7">
             Bonus fig - Whole-genome linear CNV overview (not on poster)
           </a>

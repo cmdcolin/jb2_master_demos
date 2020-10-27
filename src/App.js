@@ -174,7 +174,7 @@ function App() {
           </p>
           <a
             className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-a787a0d9f50469313a9ec1513bf2f2e613a7af90f0306053d1ae36ced4b76b21&password=fe74332a03ebc51780d8c3fb0b8f6ac6"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-9aff10744c4c039bf3a85c6366194046ef0a3d280e7df9cca237bb94775dbac2&password=6363b12220fd4f1eff3115cddc4883f2"
           >
             Demo (dotplot read vs ref)
           </a>
@@ -213,10 +213,7 @@ function App() {
             a custom arc renderer. This latter example was documented and
             presented at the BCC2020 training session, and those proceedings are
             available here (
-            <a
-              className={classes.anchorLink}
-              href="https://jbrowse.org/jb2/docs/bcc2020_plugin_development/"
-            >
+            <a href="https://jbrowse.org/jb2/docs/bcc2020_plugin_development/">
               link
             </a>
             )
@@ -229,12 +226,13 @@ function App() {
           <ModalImage small="resized.cnv.png" large="cnv.png" />
           <p>
             While many JBrowse features are designed for in-depth inspection, we
-            can also get the "global overview" of a genome CNV profiling with a
-            simple depth converage. This is simply the read-depth coverage from
-            mosdepth from the SKBR3 PacBio BAM file. The data at this scale is
-            binned for fast visualization, and each bin draws it's min, mean,
-            and max and three slightly different shades of blue here, hence the
-            coloring.
+            can also get the &quot;global overview&quot; of a genome CNV
+            profiling with a depth-of-coverage plot from read sequencing. This
+            is shows the read-depth coverage from an SKBR3 PacBio BAM file,
+            calculated by mosdepth, in plain BigWig format. The data at this
+            scale is binned for fast visualization, and each bin draws it&apos;s
+            min, mean, and max and three slightly different shades of blue here,
+            hence the coloring.
           </p>
           <a
             className={classes.demoLink}

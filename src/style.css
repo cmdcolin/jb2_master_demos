@@ -2,29 +2,12 @@ hr {
   margin-top: 0;
 }
 
-.topSpan,
-.jbrowseHeader,
-button,
-hr {
-  background-color: #0d233f;
-  color: white;
-}
-.topSpan {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.jbrowseHeader {
-  font: 400 system-ui;
-  margin-right: 10px;
-}
 .icon {
   height: 48px;
   width: 48px;
 }
 
 .readme {
-  width: 40%;
   margin: 1em auto;
   text-align: center;
 }
@@ -34,12 +17,9 @@ hr {
   width: 80%;
 }
 .demo {
-  font-size: 200%;
   display: block;
 }
 
 .post {
-  margin: 100px;
   border: 1px solid black;
-  padding: 40px;
 }

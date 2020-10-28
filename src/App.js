@@ -228,11 +228,12 @@ function App() {
             While many JBrowse features are designed for in-depth inspection, we
             can also get the &quot;global overview&quot; of a genome CNV
             profiling with a depth-of-coverage plot from read sequencing. This
-            is shows the read-depth coverage from an SKBR3 PacBio BAM file,
+            shows the read-depth coverage from an SKBR3 PacBio BAM file,
             calculated by mosdepth, in plain BigWig format. The data at this
-            scale is binned for fast visualization, and each bin draws it&apos;s
-            min, mean, and max and three slightly different shades of blue here,
-            hence the coloring.
+            scale is displaying binned data (using the zoom levels that are
+            built into BigWig files natively) for fast visualization, and each
+            bin draws it&apos;s min, mean, and max and three slightly different
+            shades of blue here, hence the coloring.
           </p>
           <a
             className={classes.demoLink}

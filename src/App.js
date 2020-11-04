@@ -221,7 +221,7 @@ function App() {
         </div>
         <div className={classes.post}>
           <a className={classes.anchorLink} href="#7" name="7">
-            Fig. 7 - Whole-genome linear CNV overview (not on poster)
+            Fig. 7 - Whole-genome linear CNV overview
           </a>
           <ModalImage small="resized.cnv.png" large="cnv.png" />
           <p>

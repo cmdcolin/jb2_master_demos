@@ -1,5 +1,5 @@
 {
-  "name": "jbrowse_ashg_demos",
+  "name": "jbrowse_current_demos",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src lambda",
-    "deploy": "npm run build && aws s3 sync --delete build/ s3://jbrowse.org/demos/ashg2020/ && aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO  --paths \"/demos/*\""
+    "deploy": "npm run build && aws s3 sync --delete build/ s3://jbrowse.org/demos/current/ && aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO  --paths \"/demos/*\""
   },
   "eslintConfig": {
     "extends": "react-app"

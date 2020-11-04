@@ -54,7 +54,7 @@ function Header() {
       <Toolbar className={classes.toolbar}>
         <Typography className={classes.title} variant="h6">
           <img alt="logo" src={icon} className={classes.icon} />
-          JBrowse 2 ASHG 2020
+          JBrowse 2 demos
         </Typography>
       </Toolbar>
     </AppBar>
@@ -221,7 +221,7 @@ function App() {
         </div>
         <div className={classes.post}>
           <a className={classes.anchorLink} href="#7" name="7">
-            Bonus fig - Whole-genome linear CNV overview (not on poster)
+            Fig. 7 - Whole-genome linear CNV overview (not on poster)
           </a>
           <ModalImage small="resized.cnv.png" large="cnv.png" />
           <p>
@@ -252,12 +252,11 @@ function Readme() {
     <div className="readme">
       <p>
         <i>
-          These demos present a preview of JBrowse 2, as a companion to our ASHG
-          2020 poster. We highlight circular, dotplot, and linear comparative
-          views that are new to JBrowse 2. These new views aim to help
-          structural variant inspection, with a particular focus in these
-          examples on cancer applications with the SKBR3 cell line and PacBio
-          long read data.
+          These demos present a preview of JBrowse 2 with some live demos. We
+          highlight circular, dotplot, and linear comparative views that are new
+          to JBrowse 2. These new views aim to help structural variant
+          inspection, with a particular focus in these examples on cancer
+          applications with the SKBR3 cell line and PacBio long read data.
         </i>
       </p>
       <div>

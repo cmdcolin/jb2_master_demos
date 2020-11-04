@@ -243,6 +243,23 @@ function App() {
           </a>
         </div>
       </div>
+      <div className={classes.post}>
+        <a className={classes.anchorLink} href="#8" name="8">
+          Fig. 8 - Color and sort by tag
+        </a>
+        <ModalImage small="resized.colorby.png" large="colorby.png" />
+        <p>
+          We can also color alignments from BAM or CRAM files by a given tag,
+          for example reads tagged with their haplotype information. Sorting is
+          also shown here.
+        </p>
+        <a
+          className={classes.demoLink}
+          href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fvolvox%2Fconfig.json&session=share-88PSZk9jTD&password=GPend"
+        >
+          Demo
+        </a>
+      </div>
     </>
   )
 }

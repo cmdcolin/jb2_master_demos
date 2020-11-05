@@ -1,1 +1,1 @@
-See https://jbrowse.org/demos/ashg2020
+See https://jbrowse.org/demos/master

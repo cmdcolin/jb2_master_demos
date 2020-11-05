@@ -70,59 +70,12 @@ function App() {
       <div id="parentDiv">
         <div className={classes.post}>
           <a className={classes.anchorLink} href="#1" name="1">
-            Fig 1 - Linked supplementary alignments for deletion and inversion
-            SV
+            Fig 1 - Breakpoint split view showing a translocation
           </a>
-          <div className={classes.screenshots}>
-            <div style={{ padding: 20 }}>
-              <ModalImage
-                small="resized.1.png"
-                large="1.png"
-                alt="deletion SV"
-              />
-            </div>
-            <div style={{ padding: 20 }}>
-              <ModalImage
-                small="resized.2.png"
-                large="2.png"
-                alt="inversion SV"
-              />
-            </div>
-          </div>
-          <p>
-            This shows long reads which are split-aligned across a deletion and
-            an inversion SV. Simple small deletions would use the CIGAR string
-            to indicate a deletion, but this deletion event from long PacBio
-            reads from the SKBR3 cell line split the alignment into multiple
-            records in the BAM file, which are linked by their QNAME, and
-            displayed as a single entity in JBrowse 2.
-          </p>
-          <p>
-            The inversion also is from PacBio SKBR3 reads which are split
-            aligned into several sections being displayed as a linked entity,
-            showing the reads that for example, start aligning on the sense
-            strand (red), then flip to the antisense (blue), and then back to
-            the sense strand (red)
-          </p>
-          <a
-            className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-4e68d7667f204ee4dfaf01279ee488275686147d4c93c86a80fb2994ad6c43c6&password=c17703bc1fc0d1c7508bc1af8cf42892"
-          >
-            Demo (deletion)
-          </a>
-          <a
-            className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-09fbcfe05be0f234ff38c2a7da37b5d57485056233e6abd3eb72c61956ad69cf&password=0510843a5e1ac5ef6504e321b6fc7855"
-          >
-            Demo (inversion)
-          </a>
-        </div>
-
-        <div className={classes.post}>
-          <a className={classes.anchorLink} href="#2" name="2">
-            Fig 2 - Breakpoint split view showing a translocation
-          </a>
-          <ModalImage small="resized.3.png" large="3.png" />
+          <ModalImage
+            small="resized.breakpoint-split-view.png"
+            large="breakpoint-split-view.png"
+          />
           <p>
             With a complex structural variant like a translocation, we can show
             a stacked linear-genome-view which we call the "breakpoint split
@@ -133,28 +86,41 @@ function App() {
           </p>
           <a
             className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-1ac98298d9a92564495c42670e75317b1f68ce8a158a022a0ee11b4dde5eecd6&password=7551ad20dd2a6e99794cebff0d2d2daf"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/master/index.html?config=test_data%2Fconfig_demo.json&session=share-eOhpnaupOt&password=85sGE"
           >
             Demo
           </a>
         </div>
         <div className={classes.post}>
-          <a className={classes.anchorLink} href="#3" name="3">
-            Fig 3 - SV inspector with spreadsheet and circos overview
+          <a className={classes.anchorLink} href="#2" name="2">
+            Fig 2 - SV inspector with spreadsheet and circos overview
           </a>
-          <ModalImage small="resized.4.png" large="4.png" />
-          <p></p>
+          <ModalImage small="resized.svinspector.png" large="svinspector.png" />
           <a
             className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-2669c214ec21890a19b4eeacaafb8e416f471213a60ee3f21f65ea4f36297029&password=431a9e01c3816db57b2eb12e3b5e13b5"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/master/index.html?config=test_data%2Fconfig_demo.json&session=share-UowPTMMwfw&password=NiNBX"
           >
             Demo
           </a>
+          <p>
+            Our breakpoint split view enables users to see a whole genome
+            overview of structural variants. It is currently primarily aimed at
+            visualizing inter-chromosomal events such as VCF breakends and
+            &lt;TRA&gt; events. It can also accept regular BEDPE, STAR-fusion
+            output files, and more.
+          </p>
+          <p>
+            The SV inspector is a mashup of the circular view and the tabular
+            data view. Users can launch regular linear genome views through
+            different variants by clicking on the blue links. They can also
+            launch a breakpoint split view by clicking the dropdown on the
+            leftmost part of each grid row.
+          </p>
         </div>
 
         <div className={classes.post}>
-          <a className={classes.anchorLink} href="#5" name="5">
-            Fig 5 - Dotplot/synteny of long read vs reference
+          <a className={classes.anchorLink} href="#3" name="3">
+            Fig 3 - Dotplot/synteny of long read vs reference
           </a>
           <div className={classes.screenshots}>
             <div style={{ padding: 20 }}>
@@ -187,8 +153,8 @@ function App() {
         </div>
 
         <div className={classes.post}>
-          <a className={classes.anchorLink} href="#6" name="6">
-            Fig 6 - Examples of plugins on the JBrowse 2 platform
+          <a className={classes.anchorLink} href="#4" name="4">
+            Fig 4 - Examples of plugins on the JBrowse 2 platform
           </a>
           <div className={classes.screenshots}>
             <div style={{ padding: 20 }}>
@@ -220,8 +186,8 @@ function App() {
           </p>
         </div>
         <div className={classes.post}>
-          <a className={classes.anchorLink} href="#7" name="7">
-            Fig. 7 - Whole-genome linear CNV overview
+          <a className={classes.anchorLink} href="#5" name="5">
+            Fig. 5 - Whole-genome linear CNV overview
           </a>
           <ModalImage small="resized.cnv.png" large="cnv.png" />
           <p>

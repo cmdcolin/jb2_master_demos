@@ -140,13 +140,13 @@ function App() {
           </p>
           <a
             className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-9aff10744c4c039bf3a85c6366194046ef0a3d280e7df9cca237bb94775dbac2&password=6363b12220fd4f1eff3115cddc4883f2"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/@jbrowse/web@1.0.0/index.html?config=test_data%2Fconfig_demo.json&session=share-58nID8k24H&password=D2pSu"
           >
             Demo (dotplot read vs ref)
           </a>
           <a
             className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-2f1a0b366be17d6848bd398e6367ecdc2b62ca3bb71bfdc4b5bd499d7fe2dbb3&password=f515e44eca237e4547955cf8a52ba714"
+            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/@jbrowse/web@1.0.0/index.html?config=test_data%2Fconfig_demo.json&session=share-VOySyliHTD&password=SMiSS"
           >
             Demo (linear read vs ref)
           </a>
@@ -185,46 +185,6 @@ function App() {
             )
           </p>
         </div>
-        <div className={classes.post}>
-          <a className={classes.anchorLink} href="#5" name="5">
-            Fig. 5 - Whole-genome linear CNV overview
-          </a>
-          <ModalImage small="resized.cnv.png" large="cnv.png" />
-          <p>
-            While many JBrowse features are designed for in-depth inspection, we
-            can also get the &quot;global overview&quot; of a genome CNV
-            profiling with a depth-of-coverage plot from read sequencing. This
-            shows the read-depth coverage from an SKBR3 PacBio BAM file,
-            calculated by mosdepth, in plain BigWig format. The data at this
-            scale is displaying binned data (using the zoom levels that are
-            built into BigWig files natively) for fast visualization, and each
-            bin draws it&apos;s min, mean, and max and three slightly different
-            shades of blue here, hence the coloring.
-          </p>
-          <a
-            className={classes.demoLink}
-            href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fconfig_demo.json&session=share-dd3949994b4456d154a591909dbd22cf4e7e47198e900b94d67e5d9b9208a90f&password=02b00b8b91b4d4fa3c2562f91835eefd"
-          >
-            Demo
-          </a>
-        </div>
-      </div>
-      <div className={classes.post}>
-        <a className={classes.anchorLink} href="#8" name="8">
-          Fig. 8 - Color and sort by tag
-        </a>
-        <ModalImage small="resized.colorby.png" large="colorby.png" />
-        <p>
-          We can also color alignments from BAM or CRAM files by a given tag,
-          for example reads tagged with their haplotype information. Sorting is
-          also shown here.
-        </p>
-        <a
-          className={classes.demoLink}
-          href="https://s3.amazonaws.com/jbrowse.org/code/jb2/beta/skbr3_demo/index.html?config=test_data%2Fvolvox%2Fconfig.json&session=share-88PSZk9jTD&password=GPend"
-        >
-          Demo
-        </a>
       </div>
     </>
   )
